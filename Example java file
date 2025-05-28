@@ -1,0 +1,24 @@
+src/main/java/com/example/App.java
+
+package com.example;
+
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello from GitHub Maven Project!");
+    }
+}
+
+src/test/java/com/example/AppTest.java
+
+package com.example;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class AppTest {
+    @Test
+    public void testApp() {
+        assertTrue(true);
+    }
+}
+
